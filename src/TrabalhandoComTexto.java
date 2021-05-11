@@ -2,7 +2,7 @@ import org.w3c.dom.Text;
 
 import java.util.Locale;
 import java.util.Scanner;
-
+// https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
 public class TrabalhandoComTexto {
 
     public static void main(String[] args){
@@ -26,8 +26,7 @@ public class TrabalhandoComTexto {
 
         System.out.printf(" Oi, meu nome é %s e tenho %d anos, tenho %.2f de altura e peso %.2f kg", nomeCompleto, idade, altura, peso);
 
-
-
+        scanner.close();
 
     }
 }
