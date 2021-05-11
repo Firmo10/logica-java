@@ -1,10 +1,12 @@
 import org.w3c.dom.Text;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class TrabalhandoComTexto {
 
     public static void main(String[] args){
+        Locale.setDefault(Locale.US);
 
         Scanner scanner =  new Scanner(System.in);
 
@@ -21,12 +23,11 @@ public class TrabalhandoComTexto {
         System.out.println("Digite seu peso");
         double peso = scanner.nextDouble();
 
-        // *** PROCESSAMENTO ***
-        String valoresConcatenados = " Oi, meu nome é " + nomeCompleto +", tenho " + idade + " anos, minha altura é " + altura + " metro, e estou pesando " + peso + "Kg";
 
-        // *** SAIDA DE DADOS ***
+        System.out.printf(" Oi, meu nome é %s e tenho %d anos, tenho %.2f de altura e peso %.2f kg", nomeCompleto, idade, altura, peso);
 
-        System.out.println(valoresConcatenados);
+
+
 
     }
 }
