@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-
+//https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
 public class Exercicio01 {
 
     public static void main(String[] args){
@@ -21,12 +21,12 @@ public class Exercicio01 {
         System.out.println("Products: ");
         System.out.printf("%s, which price is $ %.2f%n", product1, price1);
         System.out.printf("%s, which price is $ %.2f%n", product2, price2);
-        System.out.println();
+        System.out.println(); // QUEBRA DE LINHA
         System.out.printf("Record: %d years old, code %d and gender: %c%n", age, code, gender);
-        System.out.println();
+        System.out.println(); // QUEBRA DE LINHA
         System.out.printf("Measure with eight decimal places: %.8f%n", measure);
         System.out.printf("Rouded (three decimal places): %.3f%n", measure);
-        Locale.setDefault(Locale.US);
+        Locale.setDefault(Locale.US); // MUDANÇA DE IDIOMA PARA USAR O . E NÃO ,
         System.out.printf("US decimal point: %.3f%n", measure);
 
 
