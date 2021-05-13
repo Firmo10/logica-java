@@ -1,10 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExcercicioResolvido1001 {
 
-    import java.util.Locale;
-import java.util.Scanner;
 
 /*
 Fazer um programa para ler as medidas da largura e comprimento de um terreno  retangular com uma casa decimal,
@@ -20,7 +17,7 @@ Exemplo:
 
  */
 
-    public class Ex1001 {
+    public class ExercicioResolvido1001 {
 
         public static void main(String[] args) {
             Locale.setDefault(Locale.US);
@@ -42,6 +39,8 @@ Exemplo:
 
             scanner.close();
         }
+
+
     }
 
-}
+
