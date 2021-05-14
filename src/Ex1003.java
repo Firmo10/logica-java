@@ -57,5 +57,6 @@ public class Ex1003 {
         int resultado2 = quintoNumero + sextoNumero;
         System.out.println("SOMA = " + resultado2);
 
+        scanner.close();
     }
 }
