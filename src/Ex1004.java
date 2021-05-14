@@ -32,6 +32,7 @@ public class Ex1004 {
         int PROD = (A*B);
         System.out.printf("PROD = " + PROD);
 
+        scanner.close();
 
     }
 }
