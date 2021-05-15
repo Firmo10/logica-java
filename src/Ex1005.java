@@ -43,7 +43,7 @@ public class Ex1005 {
 
         System.out.printf("MEDIA = %.5f", notaFinal );
 
-
+        scanner.close();
 
     }
 }
