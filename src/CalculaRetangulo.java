@@ -6,8 +6,9 @@ public class CalculaRetangulo {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner (System.in);
 
-        double base = 5.0;
-        double altura = 4.0;
+        System.out.println("Digite o valor da base");
+        double base = scanner.nextDouble();
+        double altura = scanner.nextDouble();
 
         double area = base * altura;
         double perimetro = (2 * base) + (2 * altura);
