@@ -1,32 +1,42 @@
+import java.util.Scanner;
+
 public class DiaSemana {
     public static void main(String[] args) {
-        int diaSemana = 7;
 
-        if (diaSemana == 1) { //false
-            System.out.println("Domingo");
-        }else if (diaSemana == 2) { //false
-            System.out.println("Segunda");
-        }else if (diaSemana == 3) { //false
-            System.out.println("Terça");
-        }else {
-            System.out.println("Dia nao encontrado");
-        }
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite o dia da semana");
+        int diaSemana = scanner.nextInt();
+        String dia = "";
+
 
         switch (diaSemana){
             case 1:
-                System.out.println("Domingo");
+                dia = "Domingo";
+                break;
             case 2:
-                System.out.println("Segunda");
+                dia = "Segunda";
+                break;
             case 3:
-                System.out.println("Terça");
+                dia = "Terça";
+                break;
             case 4:
-                System.out.println("Quarta");
+                dia = "Quarta";
+                break;
             case 5:
-                System.out.println("Quinta");
+                dia = "Quinta";
+                break;
             case 6:
-                System.out.println("Sexta");
+                dia = "Sexta";
+                break;
             case 7:
-                System.out.println("Sabado");
+                dia = "Sabado";
+                break;
+
+            default:
+                dia = "Dia nao encontrado";
         }
+        System.out.println(dia);
+        scanner.close();
     }
 }
