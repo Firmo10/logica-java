@@ -21,7 +21,7 @@ public class Matriz {
 
         for (int i = 0; i < 2; i++) { // percorrer linhas
             for (int j = 0; j < 2; j++) { // percorrer colunas
-                System.out.println(matriz[i][j]);
+                System.out.println("Posicao [ " + i + " ] [ " + j + " ] " + matriz[i][j]);
             }
         }
     }
